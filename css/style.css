@@ -682,7 +682,7 @@ footer {
 .section-block {
   position: relative;
   background-color: transparent;
-  padding: 100%;
+  padding: 100px;
 }
 
 .section-alt {
