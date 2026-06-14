@@ -1,0 +1,139 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets"
+public_folder: "assets"
+local_backend: false
+
+collections:
+  - name: "settings"
+    label: "Portfolio Settings"
+    files:
+      - name: "portfolio"
+        label: "Portfolio Content"
+        file: "data/portfolio.json"
+        format: "json"
+        fields:
+          - label: "Site / SEO"
+            name: "site"
+            widget: "object"
+            fields:
+              - { label: "Logo Text", name: "logoText", widget: "string" }
+              - { label: "Page Title", name: "pageTitle", widget: "string" }
+              - { label: "Meta Description", name: "metaDescription", widget: "text" }
+              - { label: "SEO Keywords", name: "keywords", widget: "string", required: false }
+              - { label: "Author", name: "author", widget: "string" }
+              - { label: "Canonical URL", name: "canonicalUrl", widget: "string", required: false }
+              - { label: "Open Graph Image", name: "ogImage", widget: "image", required: false }
+          - label: "Personal / Hero / About"
+            name: "personal"
+            widget: "object"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Full Name", name: "fullName", widget: "string" }
+              - { label: "Typewriter Text", name: "typewriterText", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Hero Badge", name: "badge", widget: "string" }
+              - { label: "Hero Headline", name: "heroHeadline", widget: "text" }
+              - { label: "Hero Description", name: "heroDescription", widget: "text" }
+              - { label: "Profile Image", name: "profileImage", widget: "image" }
+              - { label: "CV File", name: "cvFile", widget: "file" }
+              - { label: "About Subtitle", name: "aboutSubtitle", widget: "string" }
+              - { label: "About Title", name: "aboutTitle", widget: "string" }
+              - label: "About Paragraphs"
+                name: "aboutDescription"
+                widget: "list"
+                field: { label: "Paragraph", name: "paragraph", widget: "text" }
+          - label: "Contact Info"
+            name: "contactInfo"
+            widget: "object"
+            fields:
+              - { label: "Address", name: "address", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "Availability", name: "availability", widget: "string" }
+              - { label: "Contact Intro", name: "contactIntro", widget: "text" }
+          - label: "Social Links"
+            name: "socialLinks"
+            widget: "list"
+            fields:
+              - { label: "Platform", name: "platform", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Bootstrap Icon Class", name: "icon", widget: "string", hint: "Example: bi bi-linkedin" }
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Icon", name: "icon", widget: "string" }
+              - { label: "Value", name: "value", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+          - label: "Experiences"
+            name: "experiences"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Company", name: "company", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Period", name: "period", widget: "string" }
+              - label: "Responsibilities"
+                name: "responsibilities"
+                widget: "list"
+                field: { label: "Responsibility", name: "responsibility", widget: "text" }
+              - label: "Technologies"
+                name: "technologies"
+                widget: "list"
+                field: { label: "Technology", name: "technology", widget: "string" }
+          - label: "Skills"
+            name: "skills"
+            widget: "object"
+            fields:
+              - label: "Analytics"
+                name: "analytics"
+                widget: "list"
+                field: { label: "Skill", name: "skill", widget: "string" }
+              - label: "Data Tools"
+                name: "dataTools"
+                widget: "list"
+                field: { label: "Skill", name: "skill", widget: "string" }
+              - label: "Programming"
+                name: "programming"
+                widget: "list"
+                field: { label: "Skill", name: "skill", widget: "string" }
+              - label: "Database"
+                name: "database"
+                widget: "list"
+                field: { label: "Skill", name: "skill", widget: "string" }
+          - label: "Education"
+            name: "education"
+            widget: "list"
+            fields:
+              - { label: "Period", name: "period", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+          - label: "Courses"
+            name: "courses"
+            widget: "list"
+            fields:
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Provider", name: "provider", widget: "string" }
+          - label: "Projects Settings"
+            name: "projectsSettings"
+            widget: "object"
+            fields:
+              - { label: "Projects Per Page", name: "itemsPerPage", widget: "number", value_type: "int", min: 1, max: 12 }
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Technologies"
+                name: "technologies"
+                widget: "list"
+                field: { label: "Technology", name: "technology", widget: "string" }
+              - { label: "Project Image", name: "image", widget: "image" }
+              - { label: "GitHub Link", name: "githubLink", widget: "string", required: false }
+              - { label: "Live Link", name: "liveLink", widget: "string", required: false }

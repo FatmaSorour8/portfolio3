@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Farouk Seliem | Data Analyst Portfolio - Power BI, SQL & Python</title>
+  <meta name="description"
+    content="Farouk Seliem - Data Analyst specializing in Power BI dashboards, SQL analytics, Python data analysis, ETL, Excel, data modeling, and business insights." />
+  <meta name="keywords"
+    content="Data Analyst, Power BI Developer, SQL, Python, Excel, ETL, Data Visualization, Dashboard, Farouk Seliem, Business Intelligence" />
+  <meta name="author" content="Farouk Hamed Seliem" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0da5fd" />
+  <meta property="og:title" content="Farouk Seliem | Data Analyst Portfolio" />
+  <meta property="og:description"
+    content="Data Analyst portfolio featuring Power BI dashboards, SQL analytics, Python EDA, and business intelligence projects." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/profile.png" />
+  <meta property="og:site_name" content="Farouk Seliem Portfolio" />
+  <link rel="canonical" href="https://your-domain.netlify.app/" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <script>const savedTheme = localStorage.getItem('portfolio-theme') || 'dark'; document.documentElement.setAttribute('data-theme', savedTheme);</script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <script type="application/ld+json" id="schema-person"></script>
+</head>
+
+<body>
+  <!-- <div class="page-background" aria-hidden="true">
+    <div class="data-node node-1"></div>
+    <div class="data-node node-2"></div>
+    <div class="data-node node-3"></div>
+    <div class="data-node node-4"></div>
+  </div> -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container nav-container">
+      <a class="navbar-brand brand-font fs-4" href="#home" id="siteLogo">Farouk<span
+          class="highlight-text">.Data</span></a>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeBtn" aria-label="Toggle Theme">
+          <i class="bi bi-moon-stars-fill" id="themeIcon"></i>
+        </button>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-label="Open navigation" aria-controls="navbarNav" aria-expanded="false">
+          <i class="bi bi-list nav-menu-icon"></i>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="mobile-menu-header d-lg-none">
+          <span class="brand-font">Farouk<span class="highlight-text">.Data</span></span>
+          <button type="button" class="mobile-menu-close" id="mobileMenuClose" aria-label="Close navigation">
+            <i class="bi bi-x-lg"></i>
+          </button>
+        </div>
+        <ul class="navbar-nav align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#home"><i class="bi bi-house-door d-lg-none"></i>Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about"><i class="bi bi-person d-lg-none"></i>About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience"><i
+                class="bi bi-briefcase d-lg-none"></i>Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills"><i
+                class="bi bi-lightning-charge d-lg-none"></i>Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education"><i
+                class="bi bi-mortarboard d-lg-none"></i>Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio"><i class="bi bi-kanban d-lg-none"></i>Projects</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#contact"><i class="bi bi-envelope d-lg-none"></i>Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-menu-backdrop" id="mobileMenuBackdrop" aria-hidden="true"></div>
+  <main class="main">
+    <section class="hero" id="home">
+      <svg class="line-chart-svg" viewBox="0 0 1000 200" preserveAspectRatio="none" aria-hidden="true">
+        <path class="chart-path"
+          d="M0,150 C100,150 150,50 250,80 C350,110 400,20 500,60 C600,100 650,180 750,140 C850,100 900,40 1000,90" />
+      </svg>
+      <div class="bg-chart-container" aria-hidden="true">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7 order-2 order-lg-1 hero-intro" data-aos="fade-up" data-aos-duration="1000">
+            <div class="hero-badge d-inline-flex align-items-center px-3 py-1 mb-4 rounded-pill"><i
+                class="bi bi-activity text-primary me-2"></i><span id="heroBadge">Translating complex data into
+                strategy</span></div>
+            <h1 class="hero-title">Hi, I'm <span class="highlight-text" id="typewriterText">Farouk
+                Seliem...</span>
+            </h1>
+            <h3 id="heroHeadline" class="hero-description">
+              I turn raw data into insights, dashboards, and decisions.
+            </h3>
+            <p class="fs-6 text-secondary mb-5 hero-description " id="heroDescription">Versatile Data Analyst leveraging
+              SQL, Python, Excel, and Power BI to deliver business-centric insights.</p>
+            <div class="d-flex gap-3 flex-wrap hero-actions">
+              <a href="#contact" class="btn-modern primary"> <i class="bi bi-send-fill"></i>Hire Me</a>
+              <a href="#portfolio" class="btn-modern"><i class="bi bi-diagram-3-fill"></i>View Projects</a>
+              <a href="assets/Farouk_Seliem_CV.pdf" class="btn-modern" id="downloadCvBtn" target="_blank" download> <i
+                  class="bi bi-file-earmark-pdf"></i>Download CV</a>
+            </div>
+            <div class="social-links mt-5" id="heroSocialLinks"></div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 hero-profile" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="profile-shell mx-auto">
+              <div class="data-icon-orbit" aria-hidden="true"><span style="--i:0"><i
+                    class="bi bi-bar-chart-line"></i></span><span style="--i:1"><i
+                    class="bi bi-database"></i></span><span style="--i:2"><i class="bi bi-pie-chart"></i></span><span
+                  style="--i:3"><i class="bi bi-graph-up"></i></span><span style="--i:4"><i
+                    class="bi bi-table"></i></span><span style="--i:5"><i class="bi bi-cpu"></i></span><span
+                  style="--i:6"><i class="bi bi-clipboard-data"></i></span><span style="--i:7"><i
+                    class="bi bi-diagram-3"></i></span></div>
+              <div class="profile-glow-ring"></div>
+              <img class="profile-img" src="assets/profile.png" alt="Farouk Seliem profile picture" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="section-block section-alt">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up"><span class="section-eyebrow">About Me</span>
+          <h2 class="section-title">Data & <span>Business</span></h2>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <!-- <span class="section-eyebrow" id="aboutSubtitle">About me</span> -->
+            <!-- <h2 class="section-title" id="aboutTitle">The <span>Intersection</span> of Data & Business</h2> -->
+            <div class="about-content" id="aboutDescription"></div>
+          </div>
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="150">
+            <div class="row g-4 text-center" id="statsContainer"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="section-block">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up"><span class="section-eyebrow">Experience</span>
+          <h2 class="section-title">Professional <span>Timeline</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-9" id="experienceContainer"></div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="section-block section-alt">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up"><span class="section-eyebrow">Skills</span>
+          <h2 class="section-title">Technical <span>Arsenal</span></h2>
+        </div>
+        <div class="row g-4" id="skillsContainer"></div>
+      </div>
+    </section>
+    <section id="education" class="section-block">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up"><span class="section-eyebrow">Education & Courses</span>
+          <h2 class="section-title">Learning <span>Background</span></h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6" id="educationContainer"></div>
+          <div class="col-lg-6" id="coursesContainer"></div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="section-block section-alt">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up"><span class="section-eyebrow">Projects</span>
+          <h2 class="section-title">Featured <span>Analytics</span></h2>
+        </div>
+        <div class="row">
+
+          <div class="row g-4" id="projectsContainer"></div>
+          <div class="projects-pagination" id="projectsPagination"></div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section-block">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up"><span class="section-eyebrow">Contact</span>
+          <h2 class="section-title">Initialize <span>Connection</span></h2>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-5" data-aos="fade-right">
+            <p class="text-secondary fs-5 mb-5" id="contactIntro"></p>
+            <div id="contactInfoContainer"></div>
+            <div class="social-links mt-4" id="contactSocialLinks"></div>
+          </div>
+          <div class="col-lg-7" data-aos="fade-left">
+            <form class="modern-card contact-form" id="contactForm" novalidate>
+              <div class="row g-3">
+
+                <div class="col-md-6">
+                  <label class="form-label text-secondary" for="firstName">
+                    First name
+                  </label>
+
+                  <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required />
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label text-secondary" for="lastName">
+                    Last name
+                  </label>
+
+                  <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required />
+                </div>
+
+                <div class="col-12 mt-3">
+                  <label class="form-label text-secondary" for="email">
+                    Email
+                  </label>
+
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email address" required />
+                </div>
+
+                <div class="col-12 mt-3">
+                  <label class="form-label text-secondary" for="message">
+                    Your Message
+                  </label>
+
+                  <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..."
+                    required></textarea>
+                </div>
+
+                <div class="col-12 mt-4">
+                  <button type="submit" id="sendBtn" class="btn-modern primary w-100 justify-content-center">
+                    Send
+                    <i class="bi bi-send ms-2"></i>
+                  </button>
+                </div>
+
+                <div class="col-12">
+                  <div class="form-alert success d-none" id="form-success">
+                    <i class="bi bi-check-circle me-2"></i>
+                    Message sent successfully.
+                  </div>
+
+                  <div class="form-alert error d-none" id="form-error">
+                    <i class="bi bi-exclamation-triangle me-2"></i>
+                    Please complete all fields correctly.
+                  </div>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <h4 class="brand-font mb-3" id="footerName">Farouk Seliem</h4>
+      <div class="social-links justify-content-center mb-4" id="footerSocialLinks"></div>
+      <p class="text-secondary mb-0" id="footerText">© 2026 Farouk Seliem. Engineered with Data & Design.</p>
+    </div>
+  </footer>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

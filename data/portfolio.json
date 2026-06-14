@@ -1,0 +1,138 @@
+{
+  "site": {
+    "logoText": "Farouk.Data",
+    "pageTitle": "Farouk Seliem | Data Analyst Portfolio - Power BI, SQL & Python",
+    "metaDescription": "Farouk Seliem - Data Analyst specializing in Power BI dashboards, SQL analytics, Python data analysis, ETL, Excel, data modeling, and business insights.",
+    "keywords": "Data Analyst, Power BI Developer, SQL, Python, Excel, ETL, Data Visualization, Dashboard, Farouk Seliem, Business Intelligence",
+    "author": "Farouk Hamed Seliem",
+    "canonicalUrl": "https://your-domain.netlify.app/",
+    "ogImage": "assets/profile.png"
+  },
+  "personal": {
+    "name": "Farouk Seliem",
+    "fullName": "Farouk Hamed Seliem",
+    "typewriterText": "Farouk Seliem...",
+    "title": "Data Analyst",
+    "badge": "Translating complex data into strategy",
+    "heroHeadline": "I turn raw data into insights, dashboards, and decisions.",
+    "heroDescription": "Versatile Data Analyst leveraging SQL, Python, Excel, and Power BI to deliver business-centric insights across finance, logistics, HR, and healthcare domains.",
+    "profileImage": "assets/profile.png",
+    "cvFile": "assets/Farouk_Seliem_CV.pdf",
+    "aboutSubtitle": "About me",
+    "aboutTitle": "The Intersection of Data & Business",
+    "aboutDescription": [
+      "I'm Farouk Hamed Seliem, a Data Analyst focused on transforming raw data into clear, practical, and business-ready insights using SQL, Python, Power BI, and Excel.",
+      "I have hands-on experience in data cleaning, ETL, exploratory data analysis, dashboard development, and data storytelling across logistics, finance, HR, and healthcare datasets.",
+      "My work focuses on accuracy, performance, clarity, and helping stakeholders make better decisions through reliable dashboards and analytical reports."
+    ]
+  },
+  "contactInfo": {
+    "address": "Cairo, Egypt",
+    "email": "faroukseliem123@gmail.com",
+    "phone": "+20 112 534 9216",
+    "availability": "Available for Data Analysis & BI Projects",
+    "contactIntro": "Need a Power BI dashboard, SQL analysis, Python EDA, or a clear analytical report? Let's turn your data into decisions."
+  },
+  "socialLinks": [
+    { "platform": "github", "url": "#", "icon": "bi bi-github" },
+    { "platform": "linkedin", "url": "https://linkedin.com/in/farouk-hamed-43b090210", "icon": "bi bi-linkedin" },
+    { "platform": "whatsapp", "url": "https://wa.me/201125349216", "icon": "bi bi-whatsapp" }
+  ],
+  "stats": [
+    { "icon": "bi bi-database-check", "value": "100%", "label": "Data Integrity" },
+    { "icon": "bi bi-graph-up-arrow", "value": "BI", "label": "Business Insights" }
+  ],
+  "experiences": [
+    {
+      "title": "Data Analyst Intern",
+      "company": "TechnoHacksEduTech",
+      "location": "Remote",
+      "period": "Dec 2024 – Feb 2025",
+      "responsibilities": [
+        "Developed hands-on expertise in data cleaning, statistical analysis, and interactive dashboard development using Excel, Power BI, and Python.",
+        "Built and delivered multiple data visualization projects, applying ETL techniques and summary statistics to transform raw data into actionable insights."
+      ],
+      "technologies": ["Excel", "Power BI", "Python", "ETL", "Data Visualization"]
+    },
+    {
+      "title": "Data Analyst Intern",
+      "company": "NeurontiX",
+      "location": "Cairo, Egypt",
+      "period": "Aug 2024 – Sep 2024",
+      "responsibilities": [
+        "Analyzed HR and employee datasets using SQL to extract workforce insights and support data-driven decision-making.",
+        "Performed exploratory data analysis on healthcare datasets and identified key risk indicators across patient records.",
+        "Applied data cleaning and transformation techniques across HR, workforce, and healthcare projects."
+      ],
+      "technologies": ["SQL", "EDA", "Healthcare Analytics", "HR Analytics", "Data Cleaning"]
+    }
+  ],
+  "skills": {
+    "analytics": ["Power BI", "Power Query", "DAX", "Data Modeling", "Reporting", "Data Visualization", "Business Intelligence"],
+    "dataTools": ["Microsoft Excel", "ETL", "Data Cleaning", "Data Wrangling", "Statistics", "Probability"],
+    "programming": ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "SQL", "T-SQL"],
+    "database": ["DDL", "DML", "DQL", "DCL", "TCL", "DBMS", "Data Mining"]
+  },
+  "education": [
+    {
+      "period": "Sep 2019 – Jun 2024",
+      "title": "Bachelor of Computer Science | BFCAI",
+      "description": "Faculty of Computer and Artificial Intelligence, Benha University. Information Systems Department."
+    }
+  ],
+  "courses": [
+    { "year": "2025", "title": "Data Analysis using Excel Program", "provider": "ITI" },
+    { "year": "2025", "title": "Business Intelligence Development", "provider": "ITI" },
+    { "year": "2025", "title": "Power BI Diploma", "provider": "AMIT Learning" },
+    { "year": "2024", "title": "Google Data Analytics Professional Certificate", "provider": "Coursera" },
+    { "year": "2024", "title": "IBM Data Analyst", "provider": "Coursera" }
+  ],
+  "projectsSettings": { "itemsPerPage": 3 },
+  "projects": [
+    {
+      "title": "Inventory & Supply Chain Performance Dashboard",
+      "category": "Power BI",
+      "description": "End-to-end Power BI dashboard to optimize supply chain efficiency and warehouse operations using DSI, turnover ratio, utilization, logistics cost, inventory levels, backorders, and lead-time trends.",
+      "technologies": ["Power BI", "DAX", "Power Query", "Supply Chain"],
+      "image": "assets/inventory-dashboard.svg",
+      "githubLink": "https://github.com/username/inventory-dashboard",
+      "liveLink": "https://inventory-dashboard.netlify.app"
+    },
+    {
+      "title": "Strategic Analysis of Loan Profitability",
+      "category": "Finance Analytics",
+      "description": "Interactive Power BI dashboard analyzing a $237M loan portfolio, highlighting an 8.33% default rate and strategic recommendations for diversification and regional expansion.",
+      "technologies": ["Power BI", "Finance", "Data Modeling", "ROI Analysis"],
+      "image": "assets/loan-profitability.svg",
+      "githubLink": "https://github.com/username/inventory-dashboard",
+      "liveLink": "https://inventory-dashboard.netlify.app"
+    },
+    {
+      "title": "Global Health Data Analytics",
+      "category": "Healthcare Analytics",
+      "description": "Analyzed global mortality records across 204 countries and 30 years to identify leading causes of death and high-volume mortality regions.",
+      "technologies": ["Python", "Pandas", "EDA", "Healthcare"],
+      "image": "assets/global-health.svg",
+      "githubLink": "https://github.com/username/inventory-dashboard",
+      "liveLink": "https://inventory-dashboard.netlify.app"
+    },
+    {
+      "title": "HR Workforce Insights",
+      "category": "SQL Analysis",
+      "description": "Analyzed HR and employee datasets using SQL to extract workforce insights and support data-driven decision-making.",
+      "technologies": ["SQL", "DDL", "DML", "DQL", "HR Analytics"],
+      "image": "assets/hr-analysis.svg",
+      "githubLink": "https://github.com/username/inventory-dashboard",
+      "liveLink": "https://inventory-dashboard.netlify.app"
+    },
+    {
+      "title": "Diabetes Healthcare EDA",
+      "category": "Python EDA",
+      "description": "Exploratory data analysis on a diabetes healthcare dataset to identify key patient risk indicators and patterns.",
+      "technologies": ["Python", "Pandas", "Seaborn", "EDA"],
+      "image": "assets/diabetes-analysis.svg",
+      "githubLink": "https://github.com/username/inventory-dashboard",
+      "liveLink": "https://inventory-dashboard.netlify.app"
+    }
+  ]
+}
